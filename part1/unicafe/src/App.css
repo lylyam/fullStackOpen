@@ -16,3 +16,14 @@ button {
   border: none;
   border-radius: 5px
 }
+
+.buttons button:hover {
+  background-color: lavender;
+  cursor: pointer;
+}
+
+
+td:nth-child(2) {
+  padding: 8px 16px;
+  text-align: left;
+}
