@@ -1,0 +1,19 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+margin-top: 20px;
+color: darkslategray;
+padding-left: 10px;
+padding-bottom: 6px;
+padding-right: 10px;
+padding-top: 6px;
+border: none;
+border-radius: 5px
+}
+
+button:hover {
+background-color: lavender;
+cursor: pointer;
+}
