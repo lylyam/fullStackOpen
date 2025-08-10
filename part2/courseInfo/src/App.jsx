@@ -21,10 +21,10 @@ const Content = (props) => {
 };
 
 const Total = (props) => {
-  const total = props.parts[0].exercises + props.parts[1].exercises + props.parts[2].exercises;
-  return(
+  const total = props.parts.reduce((sum, part) => sum + part.exercises, 0);
+  return (
     <p>Number of exercises {total}</p>
-  )
+  );
 };
 
 const Course = ({ course }) => {
